@@ -1,25 +1,6 @@
 package com.company;
 
 public class Stack {
-    /*Link list=new Link();
-
-
-    public void Push(int value)
-    {
-        list.InsertFirst(value);
-    }
-
-    public void Pop() {
-        while (!list.isEmpty()) {
-        System.out.println(list.data);
-            list.DeleteFirst();
-        }
-    }
-    public void DisplayStack()
-    {
-        System.out.println(" ");
-        list.DisplayList();
-} */
 
     protected Node top;
     protected int size;
